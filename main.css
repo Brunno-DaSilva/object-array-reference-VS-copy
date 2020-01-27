@@ -90,7 +90,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  widows: 100vw;
+  width: 100vw;
   min-height: 80vh;
 }
 
@@ -100,10 +100,12 @@ body {
   justify-content: space-between;
   align-items: center;
   justify-content: center;
-  width: 47vw;
-  max-height: 70vh !important;
+  width: 80vw;
+  min-height: 70vh !important;
   overflow: hidden;
   margin: 1rem;
+  padding: 3rem;
+  text-align: center;
 }
 
 .blocks-of-code h3 {
